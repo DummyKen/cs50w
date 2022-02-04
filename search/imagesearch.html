@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Images</title>
+    <link rel="icon" href="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png">
+    <style>
+                    *{
+                padding: 0;
+                margin: 0;
+                font-family: Helvetica, sans-serif;
+            }
+            nav .link{
+                margin-top: 30px;
+                margin-left: 75vw;
+                
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            .showcase{
+                text-align: center;
+            }
+            .showcase img{
+                width: 350px;
+            }
+            input[type="text"]{
+                width: 600px;
+                height: 35px;
+                padding: 5px 20px;
+                border-top-left-radius: 25px;
+                border-top-right-radius: 25px;
+                border-bottom-left-radius: 25px;
+                border-bottom-right-radius: 25px;
+                border: 1px solid;
+
+            }
+            .buttons{
+                margin-top: 30px;
+                gap: 30px;
+            }
+            .buttons input, button{
+                width: 150px;
+                padding: 10px;
+                
+                
+            }
+            
+            .buttons input, button:hover{
+                cursor: pointer;
+            }
+    </style>
+</head>
+<body>
+    <!-- go back to google search -->
+    <nav>
+        <div class="link" id="back"><a href="./index.html">Back to Normal Search</a></div>
+    </nav>
+    <!-- logo and searchbar -->
+    <section class="showcase">
+        <img src="https://1000logos.net/wp-content/uploads/2021/05/Google-logo.png" alt="Google">
+        <form action="https://google.com/images">
+            <div id="textinput"><input type="text" name="q"></div>
+            <div class="buttons">
+                <input type="submit" value="Image Search">
+                <button><a href="https://www.google.com/doodles">I'm Feeling Lucky</a></button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

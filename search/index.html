@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" href="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png">
+        <title>Search</title>
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+                font-family: Helvetica, sans-serif;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            nav{
+                display: flex;
+                gap: 30px;
+                margin: 1rem;
+                margin-left: 75vw;
+                
+            }
+            .showcase{
+                text-align: center;
+            }
+            .showcase .logo img{
+                width: 350px;
+            }
+            input[type="text"]{
+                width: 600px;
+                height: 35px;
+                padding: 5px 20px;
+                border-top-left-radius: 25px;
+                border-top-right-radius: 25px;
+                border-bottom-left-radius: 25px;
+                border-bottom-right-radius: 25px;
+                border: 1px solid;
+
+            }
+            .buttons{
+                margin-top: 30px;
+                gap: 30px;
+            }
+            .buttons input, button{
+                width: 150px;
+                padding: 10px;
+                
+            }
+            
+            .buttons input, button:hover{
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <!-- other searches links -->
+            <nav>
+                <div class="link" id="img-search"><a href="./imagesearch.html">Images</a></div>
+                <div class="link" id="advanced"><a href="./advancedsearch.html">Advanced</a></div>
+            </nav>
+        </header>
+        <main>
+            <!-- logo and searchbar section -->
+            <section class="showcase">
+                <div class="logo"><img src="https://1000logos.net/wp-content/uploads/2021/05/Google-logo.png" alt=""></div>
+                <form action="https://google.com/search">
+                    <div id="textinput"><input type="text" name="q"></div>
+                    <div class="buttons">
+                        <input type="submit" value="Google Search">
+                        <button><a href="https://www.google.com/doodles">I'm Feeling Lucky</a></button>
+                    </div>
+                </form>
+        </main>
+    </body>
+</html>
+
+
+<!-- TODO: add raw advanced search bar then customize -->

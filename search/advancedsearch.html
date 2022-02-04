@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png">
+    <title>Google Advanced Search</title>
+    <style>
+                 *{
+                padding: 0;
+                margin: 0;
+                font-family: Helvetica, sans-serif;
+            }
+            header{
+                display: flex;
+                margin-left: 20px;
+            }
+            .logo img{
+                margin-top: 10px;
+                width: 100px;
+            }
+            .link{
+                margin-top: 30px;
+                margin-left: 55vw;
+                background-color: dodgerblue;
+                color: white;
+                max-width: 180px;
+                border: 1px solid #156bbd;
+                float: right;
+                padding: 10px;
+                /* margin: 0; */
+            
+                
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            .heading{
+                margin: 20px;
+            }
+            .showcase{
+                margin: 50px 40px;
+                /* display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 90%; */
+            }
+            .showcase label{
+                display: inline-block;
+                width: 16%;
+                font-size: 17px;
+            }
+            .showcase .whitespace{
+                display: inline-block;
+                width: 50%;
+            }
+            .showcase .form-group{
+                display: flex;
+                margin-top: 10px;
+                padding: 12px 0;
+                align-items: center;
+            }
+            .showcase .form-group label{
+                width: 16%;
+                font-size: 14px;
+            }
+            .showcase .form-group input[type=text]{
+                width: 49%;
+                padding: 2px 0;
+            }
+            .showcase .form-group .note{
+                font-size: 10px;
+                width: 30%;
+                margin-left: 1%;
+            }
+            .showcase .form-group .button{
+                width: 50%;
+            }
+            
+            .blue-button{
+                background-color: dodgerblue;
+                color: white;
+                font-size: smaller;
+                max-width: 180px;
+                border: 1px solid #156bbd;
+                float: right;
+                padding: 10px 5px;
+                margin: 0;
+
+            }
+            .blue-button:hover{
+
+                cursor: pointer;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://1000logos.net/wp-content/uploads/2021/05/Google-logo.png" alt="">
+        </div>
+        <div class="link" id="back"><a href="./index.html">Back to Normal Search</a></div>
+        
+    </header>
+    <main>
+        <div class="heading">
+            <h4>Advanced Search</h4>
+            <hr>
+        </div>
+        <section class="showcase">
+            <form action="https://www.google.com/search" method="get">
+                <label class="prompt">Find pages with...</label>
+                <div class="whitespace"></div>
+                <label>To do this in the search box.</label>
+                <div class="form-group">
+                    <label>All these words:</label>
+                    <input type="text" name="as_q">
+                    <div class="note">
+                        Type the important words: <span class="monospace">tri-colour rat terrier</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>This exact word or phrase:</label>
+                    <input type="text" name="as_epq">
+                    <div class="note">
+                        Put exact words in quotes: <span class="monospace">"rat terrier"</span>
+    </div>
+                </div>
+                <div class="form-group">
+                    <label>Any of these words: </label>
+                    <input type="text" name="as_oq">
+                    <div class="note">
+                        Type OR between all the words you want: <span class="monospace">miniature OR standard</span>
+    </div>
+                </div>
+                <div class="form-group">
+                    <label>None of these words:</label>
+                    <input type="text" name="as_eq">
+                    <div class="note">
+                        Put a minus sign just before words that you don't want: <span class="monospace">-rodent, -"Jack Russell"</span>
+    </div>
+                </div>
+                <div class="form-group">
+                    <label></label>
+                    <div class="button">
+                        <input type="submit" class="blue-button" value="Google Advanced Search">
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
