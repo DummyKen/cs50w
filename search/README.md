@@ -1,2 +1,2 @@
-### cs50w
-Projects, psets and labs from Harvard's CS50w
+### CS50W's Project 0: Search
+Simple clone pages of Google search, Image search and advanced search.
